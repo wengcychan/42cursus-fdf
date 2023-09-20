@@ -1,4 +1,4 @@
-<h1 align="center">42cursus - FDF</h1>
+<h1 align="center">42cursus - FdF</h1>
 
 <p align="center">
 	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wengcychan/42cursus-fdf?style=plastic&color=blue&label=C%20language&logo=42"/>
