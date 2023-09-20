@@ -6,7 +6,7 @@
 /*   By: wchan <wchan@student.hive.fi>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 17:40:16 by wchan             #+#    #+#             */
-/*   Updated: 2023/09/18 18:18:52 by wchan            ###   ########.fr       */
+/*   Updated: 2023/09/20 15:26:01 by wchan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,7 +126,7 @@ void	change_projection(t_vars *vars)
 		vars->map.map_projection = 'i';
 	else
 		vars->map.map_projection = 'o';
-	if (draw_wireframe(&vars->tmp_img, &vars->coordinate, vars->map) == 0)
+	if (draw_wireframe(&vars->tmp_img, &vars->coordinate, vars->map))
 	{
 		mlx_destroy_window(vars->mlx, vars->win);
 		exit(0);
