@@ -7,11 +7,35 @@
 
 FdF is a project focused on representing a landscape as a 3D object using lines.
 
-For more projects related to 42cursus, please visit the hive-42cursus repository.
+For more projects related to 42cursus, please visit the [hive-42cursus](https://github.com/wengcychan/hive-42cursus.git) repository.
 
 ## Introduction
 
 This project involves creating a computer graphics application that generates a simple wireframe model of a landscape by connecting various line segments.
+
+## Features
+
+The FdF program supports the following controls:
+
+| Control           | Action                  |
+|-------------------|-------------------------|
+| **Move**           |                         |
+| `w`                 | Move Up                 |
+| `a`                | Move Left               |
+| `s`                 | Move Down               |
+| `d`                 | Move Right              |
+| **Rotate**         |                         |
+| `x`                 | Rotate Along x-axis     |
+| `y`                 | Rotate Along y-axis     |
+| `z`                 | Rotate Along z-axis     |
+| **Zoom**           |                         |
+| `Mouse Scroll Up`   | Zoom Out                |
+| `Mouse Scroll Down` | Zoom In                 |
+| **Projection**     |                         |
+| `i`                 | Switch to Isometric Projection |
+| `o`                 | Switch to Oblique Projection |
+| **Close Window**   |                         |
+| `Esc`               | Close the Application   |
 
 ## Usage
 
