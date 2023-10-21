@@ -13,6 +13,8 @@ For more projects related to 42cursus, please visit the [hive-42cursus](https://
 
 This project involves creating a computer graphics application that generates a simple wireframe model of a landscape by connecting various line segments.
 
+![Map 42](./images/42.gif)
+
 ## Features
 
 The FdF program supports the following controls:
@@ -60,3 +62,17 @@ To compile and use the FdF program, follow these steps:
 	./fdf 42.fdf
 	```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Replace `42.fdf` with the name of your landscape file.
+
+## Showcase
+
+![Map world](./images/world.png)
+<br> <br>
+![Map andes](./images/andes.png)
+<br> <br>
+![Map moon](./images/moon.png)
+<br> <br>
+![Map t2](./images/t2.png)
+
+## Credits
+
+Maps generated using [42MapGenerator](https://github.com/jgigault/42MapGenerator.git).
